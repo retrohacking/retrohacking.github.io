@@ -1,7 +1,7 @@
 ---
 title: About me
 ---
-[Home](index.md) | [Blog](blog.md) | [About me](about.md) | [Contact me](contact.md)
+| [Home](index.md) | [Blog](blog.md) | [About me](about.md) | [Contact me](contact.md) |
 
 ## >whoami
 

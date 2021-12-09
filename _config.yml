@@ -1,3 +1,12 @@
 theme: jekyll-theme-hacker
 title: Retro4Hack
 description: Our Journey in the world of Cybersecurity and Programming
+url: retrohacking.github.io
+author:
+  name: Retro
+  email: retro4hack@gmail.com
+  url: retrohacking.github.io
+
+paginate: [Number of posts in one paginated section (default: 3)]
+owner: Retro
+year: 2021

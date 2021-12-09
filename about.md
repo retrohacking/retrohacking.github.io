@@ -2,13 +2,16 @@
 title: About me
 ---
 [Home](index.md) | [Blog](blog.md) | [About me](about.md) | [Contact me](contact.md)
+
 ## >whoami
+
 | Just an Italian boy in love with technology, and really really curious about everything. | ![](/img/retro.jpg)
 
 Bachelor degree in Computer Science and Technologies for Software Production.
 Currently studying Cybersecurity: want to work forever in coding and hacking.
 
 **What are my current abilities?**
+
 I can work with C, C++, C#, Python and Java so I also had they possibility to approach Android Apps development.
 Lately I've been working with disassemblers and debuggers like IDA, Ghidra, gdb, that are used for the activities of reverse egineering.
 I can work on Windows and Linux.

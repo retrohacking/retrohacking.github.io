@@ -6,6 +6,7 @@ author:
   name: Retro
   email: retro4hack@gmail.com
   url: retrohacking.github.io
+show_downloads: false
 
 paginate: [Number of posts in one paginated section (default: 3)]
 owner: Retro

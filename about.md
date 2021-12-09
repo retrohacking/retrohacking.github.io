@@ -10,7 +10,7 @@ title: About me
 
 **What are my current abilities?**
 
-I can work with C, C++, C#, Python and Java so I also had they possibility to approach Android Apps development.
+I can work with C, C++, C#, Python and Java so I also had the possibility to approach Android Apps development.
 
 Lately I've been working with disassemblers and debuggers like IDA, Ghidra, gdb, that are used for the activities of reverse egineering.
 

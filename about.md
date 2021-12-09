@@ -2,7 +2,7 @@
 title: About me
 ---
 [Home](index.md) | [Blog](blog.md) | [About me](about.md) | [Contact me](contact.md)
-##>whoami
+## >whoami
 | Just an Italian boy in love with technology, and really really curious about everything. | ![](/img/retro.jpg)
 
 Bachelor degree in Computer Science and Technologies for Software Production.

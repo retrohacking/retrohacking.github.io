@@ -5,11 +5,13 @@ title: About me
 
 ## >whoami
 
-| Just an Italian boy in love with technology, and really really curious about everything. | ![](/img/retro.jpg)
+| Just an Italian boy in love with technology, and really really curious about everything. 
 
 Bachelor degree in Computer Science and Technologies for Software Production.
 
-Currently studying Cybersecurity: want to work forever in coding and hacking.
+Currently studying Cybersecurity: want to work forever in coding and hacking. | ![](/img/retro.jpg)
+
+
 
 **What are my current abilities?**
 

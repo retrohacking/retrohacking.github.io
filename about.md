@@ -19,7 +19,7 @@ I can work on Windows and Linux.
 
 In a hacking and CTF context I feel more confortable with Reverse Engineering and Binary Exploitation: but I never lose the opportunity to learn something concerning the other categories like Web Exploitation, Crypto and Forensics.
 
-At the moment I'm really into my studies but I've fun with TryHackMe and HackTheBox and attend many CTFs with my Academic Team [Hackappatoi](https://hackappatoi.github.io/)
+At the moment I'm really into my studies but I've fun with TryHackMe and HackTheBox and attend many CTFs with my Academic Team [Hackappatoi](https://hackappatoi.github.io/).
 
 I’m really available to collaborate and work with with someone! Every experience is precious! So if you want to ask me anything or to propose any project just [contact me](contact.md).
 

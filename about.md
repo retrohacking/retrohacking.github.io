@@ -3,7 +3,6 @@ title: About me
 ---
 
 | [Home](index.md) | [Blog](blog.md) | [About me](about.md) | [Contact me](contact.md) |
-
 ## >whoami
 
 | I'm just an Italian boy in love with technology, and really really curious about everything.<br /><br />I have a Bachelor degree in Computer Science and Technologies for Software Production taken at the Università degli Studi di Bari Aldo Moro and I'm currently studying Cybersecurity at La Sapienza.<br /><br />I'd like to work forever in coding and hacking. | ![](/img/retro.jpg) |

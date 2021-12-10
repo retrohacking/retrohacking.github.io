@@ -17,7 +17,7 @@ Lately I've been working with disassemblers and debuggers like IDA, Ghidra, gdb,
 
 I can work on Windows and Linux.
 
-In a hacking and CTF context I feel more confortable with Reverse Engineering and Binary Exploitation: but I never lose the opportunity to learn something concerning the other categories like Web Exploitation, Crypto and Forensics.
+In a hacking and CTF context I feel more comfortable with Reverse Engineering and Binary Exploitation: but I never lose the opportunity to learn something concerning the other categories like Web Exploitation, Crypto and Forensics.
 
 At the moment I'm really into my studies but I've fun with TryHackMe and HackTheBox and attend many CTFs with my Academic Team [Hackappatoi](https://hackappatoi.github.io/).
 

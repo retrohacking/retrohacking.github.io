@@ -28,5 +28,11 @@
         {{ content }}
       </section>
     </div>
+    
+    <footer>
+      <div class="container">
+        {{ site.owner | default: site.github.repository_name }} {{site.year | default: "" }}
+      </div>
+    </footer>
   </body>
 </html>

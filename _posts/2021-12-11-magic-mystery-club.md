@@ -24,7 +24,7 @@ We can see that already the main function provides us a lot of important informa
 
 Let's proceed with order: how will the program replace our input? Let's open the function cast_magic:
 
-![](/img/magicmysteryclub/cast%20magic.png)
+![](/img/magicmysteryclub/castmagic.png)
 
 Here we find a random value, a **useless**  shifted_rand an then two variables are calculated basing on the return value of fun1 and fun2. In the end state (that is initialized as 0x42) will be multiplied by 3 and the bitwise XOR between the two variables is returned. You can think that it's easy until now? Well fun1 and fun2 call a series of other function that just operate on the second parameter creating a mathematic expression. The value returned by the first function can be simplified and becomes 19 + the integer value for the letter passed to the function.
 

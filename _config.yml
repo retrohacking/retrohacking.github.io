@@ -13,4 +13,4 @@ github:
 paginate: 3
 owner: Retro
 year: 2021
-excerpt_separator: <!--more-->
+excerpt_separator: <!--excerpt-->

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Here we go again
-category: general
-tags: general introduction blog
+category: General
+tags: General Introduction Blog
 ---
 Welcome back to my website! New year is coming, and with it also my new blog.
 <!--excerpt-->

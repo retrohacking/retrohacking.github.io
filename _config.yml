@@ -10,6 +10,7 @@ github:
   repository_url: https://github.com/retrohacking
 
 
-paginate: [Number of posts in one paginated section (default: 3)]
+paginate: 3
 owner: Retro
 year: 2021
+excerpt_separator: <!--more-->

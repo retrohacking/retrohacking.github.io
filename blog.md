@@ -1,9 +1,8 @@
 ---
 title: Blog
 permalink: /blog
-layout: default.html
 ---
-<h3>Blog</h3>
+## Blog
 
 <ul>
   {% for post in site.posts %}

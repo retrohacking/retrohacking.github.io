@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Retro4Hack
 permalink: /index.html
 ---
 ## Welcome to my website!

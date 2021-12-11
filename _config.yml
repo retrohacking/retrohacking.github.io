@@ -14,3 +14,7 @@ paginate: 3
 owner: Retro
 year: 2021
 excerpt_separator: <!--excerpt-->
+
+use_logo: true
+logo: img/propic-1.jpg
+

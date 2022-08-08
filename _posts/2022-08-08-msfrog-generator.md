@@ -5,7 +5,9 @@ categories: Web
 tags: Hacking Web
 ---
 This was the second most solved challenge in 2022 [CorCTF](https://2022.cor.team/) competition for the Web category.  We have a funny website in which we have to customize our frog with some emoticons.
+
 <!--excerpt-->
+
 ![](/img/msfroggenerator/1-website.png)
 
 We can move the emoticons wherever we want, with only three limitations; in order to generate the picture we have to:

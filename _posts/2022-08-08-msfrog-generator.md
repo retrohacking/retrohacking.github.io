@@ -4,7 +4,7 @@ title: "Writeup CORCTF: MSFrogGenerator"
 categories: Web
 tags: Hacking Web
 ---
-This was the second most solved challenge in 2022 [CorCTF](https://2022.cor.team/) competition for the Web category. 
+This was the second most solved challenge in 2022 CorCTF competition for the Web category. 
 <!--excerpt-->
 
 We have a funny website in which we have to customize our frog with some emoticons.

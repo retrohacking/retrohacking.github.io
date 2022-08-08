@@ -39,7 +39,7 @@ At this point I tried to play with POST requests, using curl first:
 
 ![](/img/msfroggenerator/4-curl.jpg)
 
-we can see that changing the input actually changes also the output. It was easier, to me, continue on Burp Suite. I intercepted the request to api/generate and modified it in order to send a command, and watch its output:
+we can see that changing the input actually changes also the output. It was easier, to me, continuing on Burp Suite. I intercepted the request to api/generate and modified it in order to send a command, and watch its output:
 
 ![](/img/msfroggenerator/5-whoami.png)
 

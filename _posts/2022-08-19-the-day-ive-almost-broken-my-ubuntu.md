@@ -88,7 +88,7 @@ Considering that my problem was related to a library I did an unconsiderate, but
 
 **...REBOOT TIME...**
 
-![](/img/brokenubuntu/7-solution.jpg)
+<img src="/img/brokenubuntu/7-solution.jpg" title="" alt="" width="263">
 
 Finally my Ubuntu was back! I didn't lose anything and I was ready to come back to my project!
 

@@ -10,7 +10,7 @@ tags: General Blog Linux Hacking
 
 ---
 
-Some day ago, as all the days of this summer I've been working on my thesis project. I was building some programs and one of them was giving me an error about some names that were not recognized. Searching on the internet, these names should have belonged to the _libstdc++_ library. My first thought was : "Probably this library is missing, let's try to install it"...
+Some days ago, as all the days of this summer I've been working on my thesis project. I was building some programs and one of them was giving me an error about some names that were not recognized. Searching on the internet, these names should have belonged to the _libstdc++_ library. My first thought was : "Probably this library is missing, let's try to install it"...
 
 <!--excerpt-->
 

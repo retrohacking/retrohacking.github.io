@@ -84,7 +84,7 @@ Luckily I already had my Live USB with Ubuntu configured and ready to be booted.
 
 At this point I have read and write access to all my files! My thesis project was safe. But I wanted more: I wanted to save my Ubuntu too.
 
-Considering that my problem was related to a library I did an unconsiderate, but strangely working move: I've first compared the libraries present on a fresh Ubuntu (`ls /usr/lib/`)system with the libraries I had on my Ubuntu (`ls /mnt/usr/lib`), and successively, I've deleted the ecceding files: any library that wasn't needed has been deleted, it didn't matter if some programs would have been corrupted by this: in that case I just should have reinstalled the program with apt.
+Considering that my problem was related to a library, I did an unconsiderate, but strangely working move: I've first compared the libraries present on a fresh Ubuntu (`ls /usr/lib/`)system with the libraries I had on my Ubuntu (`ls /mnt/usr/lib`), and successively, I've deleted the ecceding files: any library that wasn't needed has been deleted, it didn't matter if some programs would have been corrupted by this: in that case I just should have reinstalled the program with apt.
 
 **...REBOOT TIME...**
 

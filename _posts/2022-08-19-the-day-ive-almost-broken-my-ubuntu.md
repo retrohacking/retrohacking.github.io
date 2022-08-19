@@ -62,7 +62,7 @@ and at this point, by pressing _"e"_ on the keyboard there is the possibility to
 
 by changing _"ro"_ (read-only) to _"rw"_ (read-write) we will actually have the privileges for writing and editing files in the system; plus, if we also add _"init=/bin/bash"_ we're asking the kernel to start our shell as first process instead of the classical init file.
 
-How I've already mentioned, it **will be exectued from the kernel**, and if it is not clear, this picture should be crystalline:
+How I've already mentioned, it **will be executed by the kernel**, and if it is not clear, this picture should be crystalline:
 
 ![](/img/brokenubuntu/5-privileges.png)
 

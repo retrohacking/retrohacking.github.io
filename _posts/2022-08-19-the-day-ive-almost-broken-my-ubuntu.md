@@ -23,7 +23,7 @@ Then I made the worst mistake I could ever do in this situation: rebooting the P
 
 ![](/img/brokenubuntu/1-kernelpanic.png)
 
-BUMP! Kernel Panic My OS wouldn't have loaded after that point. (The above image is only an example of what my PC was stuck on)
+BUMP! Kernel Panic! My OS wouldn't have loaded beyond that point. (The above image is only an example of what my PC was stuck on)
 
 At that point I only had two options:
 
@@ -43,7 +43,7 @@ At that point I only had two options:
 
 Clearly the first mentioned option, was not an actual option: I needed to recover all my files and waste the least time I could.
 
-###### Obtaining a shell
+#### Obtaining a shell
 
 The first thing I thought to, was obtaining a shell: but before that, let's analise where we are now:
 
@@ -52,11 +52,11 @@ The first thing I thought to, was obtaining a shell: but before that, let's anal
 
 Following [this guide](https://medium.com/@vikasv210/linux-booting-process-424a7d15d75) but also trivially making a reference to the name of the problem I've had, it is easy to confirm that we're in the Kernel. GRUB has already been executed, I've selected the kernel I want to load, and it is the moment for the kernel to load /sbin/init. But how we can see in the first image, there is a problem that prevents the kernel to run init, that's why we get the kernel panic and in particular the last message _"Attempted to kill init"_.
 
-But at this point... what if make the kernel run /bin/bash as the first process? To do so, just access the GRUB: 
+But at this point... what if we make the kernel run /bin/bash as the first process? To do so, just access the GRUB: 
 
 ![](/img/brokenubuntu/3-grub.jpg)
 
-and at this point, pressing _"e"_ on the keyboard there is the possibility to modify the command that the kernel will execute:
+and at this point, by pressing _"e"_ on the keyboard there is the possibility to modify the command that the kernel will execute:
 
 ![](/img/brokenubuntu/4-command.png)
 
@@ -78,7 +78,7 @@ Coming back to my problem... I've obtained my shell and also learned a new thing
 
 <sub>Note: the command we've inserted to run the shell at boot time is reset after a reboot: there is no need to reverse the edits.</sub>
 
-### Solving the problem through the Live USB
+#### Solving the problem through the Live USB
 
 Luckily I already had my Live USB with Ubuntu configured and ready to be booted. I plugged the USB and started the Ubuntu live version. In this way I've had the possibility to mount the partition on which all my files were saved and access them: I only needed to run the command `mount /dev/sda5 /mnt` ; clearly replace sda5 with your partition if you have a similar problem.
 

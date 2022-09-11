@@ -25,7 +25,7 @@ Let's resume the first information available:
 
 - **The flag is guaranteed with 1000 wishes**
 
-If we click on the button we spend 10 credits to get this image:
+If we click on the button we pay 10 credits to get this image:
 
 ![](/img/anyagacha/2-image2.png)
 

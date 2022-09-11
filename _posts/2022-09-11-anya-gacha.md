@@ -23,7 +23,7 @@ Let's resume the first information available:
 
 - We have the 0.1% chance to get the flag;
 
-- **The flag is guaranteed with 100 wishes**
+- **The flag is guaranteed with 1000 wishes**
 
 If we click on the button we spend 10 credits to get this image:
 
@@ -43,7 +43,7 @@ This is the logic behind the wish action: here we acknowledge that the value tha
 
 ![](/img/anyagacha/5-update.png)
 
-Oh it's clearer now. The flag is requested to a server to which a post request containing the counter hash converted to base64 is sent: if the response content is empty we've failed, else we will get our flags.
+Oh it's clearer now. The flag is requested to a server to which a post request containing the counter hash converted to base64 is sent: if the response content is empty we've failed, else we will get our flag.
 
 Now  we can be more precise on how to solve this challenge; in particular we've three paths we can follow:
 
@@ -74,9 +74,9 @@ print(d)
 print(f"flag{requests.post(server, data=d, headers=h).content.decode()}")
 ```
 
-We've just imported the haslib and base64 module to encrypt the counter, and requests to actually perform the requests:
+We've just imported the hashlib and base64 module to encrypt the counter, and requests to actually perform the requests:
 
-I've then declared the counter as bytes (as I've seen on DNSpy), and the server, that was present in the analised file as a string.
+I've then declared the counter as bytes (as I've seen on DNSpy), and the server, that was present in the analysed  file as a string.
 
 I've then computed and updated the counter 1000 times. This has been my first attempt, I've imagined that the CTF organizers would never appreciate getting 1000 requests from each player at a time. That would have been the next tentative.
 

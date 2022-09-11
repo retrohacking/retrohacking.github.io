@@ -13,7 +13,7 @@ In this challenge you can choose to download the game based on your platform: in
 
 The first thing I've tried has been opening the game: it shows us a static image with the possibility to execute an action, to make a wish: 
 
-![](C:\Users\retro\Desktop\Progetti\Challenges\csaw\SOLVED_anyagacha\writeup\1-image1.png)
+![](/img/anyagacha/1-image1.png)
 
 Let's resume the first information available:
 
@@ -27,21 +27,21 @@ Let's resume the first information available:
 
 If we click on the button we spend 10 credits to get this image:
 
-![](C:\Users\retro\Desktop\Progetti\Challenges\csaw\SOLVED_anyagacha\writeup\2-image2.png)
+![](/img/anyagacha/2-image2.png)
 
 Well, bad luck!
 
 The first step into reversing the game is opening it with DNSpy. It is based on unity so the target file is stored into "AnyaGacha_Data\Managed\Assembly-CSharp.dll". Any important information will be stored here. We're interested in the content of the module "Gacha". The first function to analyse is "start":
 
-![](C:\Users\retro\Desktop\Progetti\Challenges\csaw\SOLVED_anyagacha\writeup\3-start.png)
+![](/img/anyagacha/3-start.png)
 
 Here we have a counter, a value, and a value obfuscator. The curious thing is that the counter is initialized to the string "wakuwaku".  Well, let's  ignore the logs and search for other interesting modules.
 
-![](4-wish.png)
+![](/img/anyagacha/4-wish.png)
 
 This is the logic behind the wish action: here we acknowledge that the value that has been defined before is the credits counter. We don't need it at the moment. But on the counter we've initialized before is now applied the SHA256 hashing algorithm... OK, let's continue and see what is  the routine Upload:
 
-![](5-update.png)
+![](/img/anyagacha/5-update.png)
 
 Oh it's clearer now. The flag is requested to a server to which a post request containing the counter hash converted to base64 is sent: if the response content is empty we've failed, else we will get our flags.
 
@@ -84,13 +84,13 @@ Let's send the counter data as a base64 encoded string, in the post request; the
 
 Let's execute this script:
 
-![](6-flag.png)
+![](/img/anyagacha/6-flag.png)
 
 Well done! That was correct.
 
 Let's try now the alternative method and hardcode the data for the post request. I've just modified my script to get the 1000th computed hash and rightclicked on the Update module to edit it:
 
-![](C:\Users\retro\Desktop\Progetti\Challenges\csaw\SOLVED_anyagacha\writeup\7-module.png)
+![](/img/anyagacha/7-module.png)
 
 **REMEMBER TO SAVE ALL THE EDITS AFTER COMPILING THE MODULE**
 
@@ -98,7 +98,7 @@ Now the payload of the request will be always the same.
 
 Let's make a wish now:
 
-![](C:\Users\retro\Desktop\Progetti\Challenges\csaw\SOLVED_anyagacha\writeup\8-flagalt.png)
+![](/img/anyagacha/8-flagalt.png)
 
 Well done again!
 

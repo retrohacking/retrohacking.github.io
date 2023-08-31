@@ -10,7 +10,7 @@ Remember I’m always available for everything 😉
 
 Be sure to add me on the socials!!!
 
-| [Email](mailto:retro4hack@gmail.com) | [Github](https://github.com/retrohacking) | [LinkedIn](https://www.linkedin.com/in/luca-mongelli-4427aa21a/) | [Twitter](https://twitter.com/retrohacking) |
+| [Email](mailto:retro4hack@gmail.com) | [Github](https://github.com/retrohacking) | [LinkedIn](https://www.linkedin.com/in/luca-mongelli-4427aa21a/) | [X](https://twitter.com/retro4hack) |
 
 
 
